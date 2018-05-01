@@ -5,11 +5,24 @@
 p {
   background: #999999;
   width: 90%;
-  height: 230px;
+  /*height: 250px;*/
   margin-right: auto;
   margin-left: auto;
-  border: 1px solid red;
+  border: 2px solid black;
   font-size: 1.25em;
+}
+
+p .menu-item-name {
+  float: right;
+  position: relative;
+  padding-top: 2px;
+  border: 2px solid black;
+  border-top: 1px;
+  border-right: 1px;
+  font-weight: bold;
+  width: 150px;
+  height: 30px;
+  text-align: center;
 }
 
 .container {
@@ -39,13 +52,6 @@ p {
   height: 280px;
 }
 
-p .menu-item-name {
-  float: right;
-  position: relative;
-  border: 1px solid red;
-  font-weight: bold;
-}
-
 #chicken {
   background: #D69897;
   color: black;
@@ -65,7 +71,7 @@ p .menu-item-name {
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    border: 1px solid green;
+    /*border: 1px solid green;*/
   }
 
   .col-lg-1 {
@@ -122,7 +128,7 @@ p .menu-item-name {
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    border: 1px solid green;
+    /*border: 1px solid green;*/
   }
 
   .col-md-1 {
