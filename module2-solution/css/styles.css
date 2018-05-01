@@ -47,7 +47,7 @@ p .menu-item-name {
 }
 
 .menu-item {
-  height: 280px;
+  height: auto;
 }
 
 #chicken {
@@ -175,7 +175,6 @@ p .menu-item-name {
 
   .col-md-12 {
     width: 100%;
-    background: deeppink;
   }
 }
 
