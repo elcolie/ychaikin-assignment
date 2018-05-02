@@ -5,14 +5,24 @@
 .header-background {
   background: #cccccc;
   height: 50px;
+  border: 2px solid black;
 }
 
 div section {
   float: left;
 }
 
-.mybackground{
+.mybackground {
   text-align: center;
   background-color: #9fcdff;
   display: block;
+}
+
+section {
+  background-color: #ced4da;
+  border: 5px solid white;
+}
+
+h3 {
+  text-align: center;
 }
