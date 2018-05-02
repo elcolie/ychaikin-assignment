@@ -11,3 +11,8 @@ div section {
   float: left;
 }
 
+.mybackground{
+  text-align: center;
+  background-color: #9fcdff;
+  display: block;
+}
