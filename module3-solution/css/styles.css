@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+.header-background {
+  background: #cccccc;
+  height: 50px;
+}
+
+
+div section{
+  float: left;
+}
